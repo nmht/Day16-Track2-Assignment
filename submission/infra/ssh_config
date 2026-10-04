@@ -1,11 +1,11 @@
 Host lab-bastion
-    HostName 44.213.89.192
+    HostName <IP>
     User ubuntu
     IdentityFile ./lab-key
     IdentitiesOnly yes
 
 Host lab-cpu
-    HostName 10.0.10.135
+    HostName <IP>
     User ubuntu
     IdentityFile ./lab-key
     IdentitiesOnly yes
